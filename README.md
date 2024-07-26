@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Task Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Task Management App is a web-based application designed to help users manage their tasks efficiently. The app supports **adding, editing, deleting,** and organizing tasks with **drag-and-drop** functionality. The app leverages React for the frontend and uses the @dnd-kit library for drag-and-drop interactions.
 
-## Available Scripts
+## Features
+1. __Add Tasks__: Quickly add new tasks to your list.
+2. __Edit Tasks__: Modify existing tasks with ease.
+3. __Delete Tasks__: Remove tasks that are no longer needed.
+4. __Toggle Task Status__: Mark tasks as completed or pending.
+5. __Drag and Drop__: Reorder tasks using a simple drag-and-drop interface.
 
-In the project directory, you can run:
+## Technologies Used
+- __React__: A JavaScript library for building user interfaces.
+- __Chakra UI__: A simple, modular, and accessible component library for React.
+- __@dnd-kit__: A set of utilities for building complex drag-and-drop interfaces.
 
-### `npm start`
+## Quick preview
+![image](https://github.com/user-attachments/assets/caa73e48-5812-4949-bb2a-c7602e62c466)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Learning Areas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### React Prop Drilling
+Prop drilling is a technique in React where you pass data from a parent component to a deeply nested child component through multiple layers of intermediate components. This can lead to verbose and less maintainable code. In this app, we handle state management and pass necessary props down to child components to ensure they have the data they need.
 
-### `npm test`
+### Chakra UI Library
+Chakra UI is a simple, modular, and accessible component library that gives you the building blocks to build your React applications quickly. It provides a set of accessible, reusable, and composable React components that make it easy to create responsive and visually appealing user interfaces.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### DnD Kit Library
+@dnd-kit is a modern drag-and-drop toolkit for React. It provides a set of utilities for building drag-and-drop interfaces that are customizable and perform well. In this app, we use @dnd-kit to enable drag-and-drop functionality for reordering tasks in the list.
 
-### `npm run build`
+### LocalStorage
+LocalStorage is a web storage API that allows you to store data in the browser's storage. This data persists even when the browser is closed and reopened. In this app, we use LocalStorage to save the task list, ensuring that the tasks persist across page reloads and browser sessions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+----------------------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Contact
+If you have any questions or suggestions, feel free to contact me at [uma.sahni.me@gmail.com].

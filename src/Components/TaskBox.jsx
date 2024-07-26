@@ -37,7 +37,7 @@ const TaskBox = ({
   };
 
   return (
-    <Box my={2} p={3} bgColor={ status ? "#588157" : "#1d2d44"} w={"100%"}>
+    <Box sx={{touchAction:"none"}} my={2} p={3} bgColor={ status ? "#588157" : "#1d2d44"} w={"100%"}>
         
       
         {edit && id == editId ? (

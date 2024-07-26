@@ -6,7 +6,7 @@ const TopNav = () => {
   return (
     <Flex gap={2} align={"center"}>
       <Text color={"#F0EBD8"}>Created By - Uma Sahni</Text>
-      <Link target="blank" href="https://github.com/UmaSahni">
+      <Link target="blank" href="https://github.com/UmaSahni/Todo-List">
         <FaGithubSquare fontSize={"1.6rem"} color="white" />
       </Link>
 
